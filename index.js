@@ -26,4 +26,22 @@ months = ["January","February","March",
             }
         
             e.preventDefault();
-        }       
+        }
+        //total amount of milk produced weekly
+        function incomeWeekly(){
+    
+            // weekly income
+            const answer = (parseFloat(field1.value)+parseFloat(field2.value)
+                           +parseFloat(field3.value)+parseFloat(field4.value)) * 45 * 7;
+        
+            if(!isNaN(answer)){
+               weeklyIncome.innerHTML = "Your weekly income will be <br> ksh "+answer;
+            }
+            // Yearly income
+            const response = (parseFloat(field1.value)+parseFloat(field2.value)
+                             +parseFloat(field3.value)+parseFloat(field4.value)) * 45 * 7 * 52;
+        
+            if(!isNaN(response)){
+               yearlyIncome.innerHTML = "Your yearly income will be <br> ksh "+response;
+            }
+        }      
