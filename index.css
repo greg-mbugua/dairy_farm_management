@@ -22,3 +22,9 @@ body{
     margin-bottom: 50px;
     border-bottom: #000;
 }
+.part1{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
