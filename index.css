@@ -1,30 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
-/* imports google font families into */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: aqua;
-    font-family: Arial, Helvetica, sans-serif;
-}
- .header{
+  body{
+      /* background-color: #7e391b; */
+     /* background-color: #9A2717; */
+     background-color: #E6E8EA;
+     font-family: poppins,sans-serif;
+  }
+.header_container{
     text-align: center;
-    color: #268DA4;
+    color: #268DA3;
     font-size: 30px;
-    text-shadow: 10em;
 }
-.underline_topic{
+.underline{
     border: 2px solid #268DA3;
-    width: 100%;
+    width: 200px;
     margin: auto;
     margin-bottom: 50px;
-    border-bottom: #000;
 }
+/* section */
 .part1{
-    display: flex;
+    display: flex; 
     justify-content: space-between;
     width: 90%;
     margin: auto;
+    margin-top: 40px;
+    padding-top: 50%;
 }
+.part1 .part1_container h2{
+    text-align: center;
+    display: flex;
+    margin-top: 10%;
+}
+.part1{
+    background-color: #268DA3;
+    height: 480px;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+.part1 .production_on_a_single_shade{
+background-color: antiquewhite;
+}
+
+.production_on_a_single_shade.h4{
+    background-color: #268DA3;
+    /* height: 200px; */
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+input{
+    width: 150px;
+    height: 35px;
+    border: none;
+    outline: 0;
+    border-radius: 5px;
+    margin: 5px;
+    color: #268DA3;
+    font-size: 20px;
+    text-align: center;
+    background-color: #E6E8EA;
+}
+::-webkit-input-placeholder{
+    text-align: center;
+    color: #268DA3;
+    font-size: 15px;
+}
+.total-production{
+    border: 2px solid #E6E8EA;
+}
+.total-production{
+  cursor: pointer;
+  background-color: #E6E8EA;
+  color: #268DA3;
+  text-transform: uppercase;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  height: 40px;
+  font-weight: 700;
+}
+
